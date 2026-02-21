@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: restaurant-ai
-Version: 1.0
-Requires-Dist: streamlit
-Requires-Dist: langchain-core
-Requires-Dist: langchain-community
-Requires-Dist: langchain-ollama
-Dynamic: requires-dist
