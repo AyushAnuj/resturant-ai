@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="restaurant-ai",
+    name="resturant-ai",
     version="1.0",
     packages=find_packages(),
     include_package_data=True,
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "restaurant-ai=restaurant_ai.run:main",
+            "resturant-ai=resturant_ai.run:main",
         ],
     },
 )
