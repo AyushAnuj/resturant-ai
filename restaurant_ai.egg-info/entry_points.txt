@@ -1,0 +1,2 @@
+[console_scripts]
+restaurant-ai = restaurant_ai.run:main
