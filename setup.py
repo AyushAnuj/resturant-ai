@@ -4,6 +4,8 @@ setup(
     name="resturant-ai",
     version="1.0",
     packages=find_packages(),
+    # Ensure the top-level module `restaurant_generator.py` is installed
+    py_modules=["restaurant_generator"],
     include_package_data=True,
     install_requires=[
         "streamlit>=1.30.0",
