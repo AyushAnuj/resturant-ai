@@ -1,4 +1,14 @@
+import sys
+from pathlib import Path
 import streamlit as st
+
+# Ensure project root is on sys.path so the top-level
+# `restaurant_generator.py` can be imported when Streamlit
+# runs the script from inside the `resturant_ai` package.
+project_root = Path(__file__).parent.parent.resolve()
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
 from restaurant_generator import generate_restaurant_details
 
 st.set_page_config(page_title="Restaurant Generator")
